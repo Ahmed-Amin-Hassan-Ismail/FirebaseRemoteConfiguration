@@ -14,7 +14,7 @@ struct FirebaseRemoteConfigurationApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

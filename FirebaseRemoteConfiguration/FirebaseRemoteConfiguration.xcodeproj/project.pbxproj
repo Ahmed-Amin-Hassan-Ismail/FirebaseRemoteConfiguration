@@ -8,22 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		ACFDFF1C2A54726600F161BB /* FirebaseRemoteConfigurationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDFF1B2A54726600F161BB /* FirebaseRemoteConfigurationApp.swift */; };
-		ACFDFF1E2A54726600F161BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDFF1D2A54726600F161BB /* ContentView.swift */; };
+		ACFDFF1E2A54726600F161BB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDFF1D2A54726600F161BB /* HomeView.swift */; };
 		ACFDFF202A54726700F161BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFDFF1F2A54726700F161BB /* Assets.xcassets */; };
 		ACFDFF232A54726700F161BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFDFF222A54726700F161BB /* Preview Assets.xcassets */; };
 		ACFDFF2B2A5472AF00F161BB /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = ACFDFF2A2A5472AF00F161BB /* FirebaseRemoteConfig */; };
 		ACFDFF2D2A54739A00F161BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACFDFF2C2A54739A00F161BB /* GoogleService-Info.plist */; };
 		ACFDFF2F2A5473F700F161BB /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDFF2E2A5473F700F161BB /* FirebaseManager.swift */; };
+		ACFDFF312A54759900F161BB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDFF302A54759900F161BB /* DetailView.swift */; };
+		ACFDFF342A54790900F161BB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = ACFDFF332A54790900F161BB /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACFDFF182A54726600F161BB /* FirebaseRemoteConfiguration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseRemoteConfiguration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFDFF1B2A54726600F161BB /* FirebaseRemoteConfigurationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRemoteConfigurationApp.swift; sourceTree = "<group>"; };
-		ACFDFF1D2A54726600F161BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACFDFF1D2A54726600F161BB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ACFDFF1F2A54726700F161BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACFDFF222A54726700F161BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACFDFF2C2A54739A00F161BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ACFDFF2E2A5473F700F161BB /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		ACFDFF302A54759900F161BB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACFDFF342A54790900F161BB /* Kingfisher in Frameworks */,
 				ACFDFF2B2A5472AF00F161BB /* FirebaseRemoteConfig in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,7 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				ACFDFF1B2A54726600F161BB /* FirebaseRemoteConfigurationApp.swift */,
-				ACFDFF1D2A54726600F161BB /* ContentView.swift */,
+				ACFDFF1D2A54726600F161BB /* HomeView.swift */,
+				ACFDFF302A54759900F161BB /* DetailView.swift */,
 				ACFDFF2E2A5473F700F161BB /* FirebaseManager.swift */,
 				ACFDFF1F2A54726700F161BB /* Assets.xcassets */,
 				ACFDFF2C2A54739A00F161BB /* GoogleService-Info.plist */,
@@ -93,6 +98,7 @@
 			name = FirebaseRemoteConfiguration;
 			packageProductDependencies = (
 				ACFDFF2A2A5472AF00F161BB /* FirebaseRemoteConfig */,
+				ACFDFF332A54790900F161BB /* Kingfisher */,
 			);
 			productName = FirebaseRemoteConfiguration;
 			productReference = ACFDFF182A54726600F161BB /* FirebaseRemoteConfiguration.app */;
@@ -124,6 +130,7 @@
 			mainGroup = ACFDFF0F2A54726600F161BB;
 			packageReferences = (
 				ACFDFF292A5472AF00F161BB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				ACFDFF322A54790900F161BB /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = ACFDFF192A54726600F161BB /* Products */;
 			projectDirPath = "";
@@ -153,7 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACFDFF2F2A5473F700F161BB /* FirebaseManager.swift in Sources */,
-				ACFDFF1E2A54726600F161BB /* ContentView.swift in Sources */,
+				ACFDFF312A54759900F161BB /* DetailView.swift in Sources */,
+				ACFDFF1E2A54726600F161BB /* HomeView.swift in Sources */,
 				ACFDFF1C2A54726600F161BB /* FirebaseRemoteConfigurationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +375,14 @@
 				minimumVersion = 10.0.0;
 			};
 		};
+		ACFDFF322A54790900F161BB /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -374,6 +390,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = ACFDFF292A5472AF00F161BB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseRemoteConfig;
+		};
+		ACFDFF332A54790900F161BB /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ACFDFF322A54790900F161BB /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
