@@ -18,33 +18,30 @@ struct DetailView: View {
             ZStack {
               
                 KFImage(URL(string: RemoteConfigurationManager.value(forKey: RemoteConfigurationValue.url))!)
-                
-                
-                
-
-                
-                Text(RemoteConfigurationManager.value(forKey: RemoteConfigurationValue.textMessage))
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .foregroundColor(.blue)
-                    .offset(y: 150)
-                    
-                
-                
+ 
             }
             .overlay(
                 
-                Button {
+                HStack {
+                    Button {
+                        
+                        presentationMode.wrappedValue.dismiss()
+                        
+                    } label: {
+                        Image(systemName: "xmark.circle")
+                            .font(.largeTitle)
+                            .foregroundColor(Color.black)
+                    }
+                        
                     
-                    presentationMode.wrappedValue.dismiss()
-                    
-                } label: {
-                    Image(systemName: "xmark.circle")
+                    Text(RemoteConfigurationManager.value(forKey: RemoteConfigurationValue.textMessage))
                         .font(.largeTitle)
-                        .foregroundColor(Color.black)
-                    
+                        .fontWeight(.bold)
+                        .foregroundColor(.blue)
+                        .padding(.horizontal)
                 }
-                .padding(.horizontal)
+                    .padding([.top,.horizontal])
+                
                 , alignment: .topLeading
             )
         
