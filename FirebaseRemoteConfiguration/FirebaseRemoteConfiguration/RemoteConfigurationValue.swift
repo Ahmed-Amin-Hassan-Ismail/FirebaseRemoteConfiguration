@@ -12,5 +12,5 @@ import Foundation
 struct RemoteConfigurationValue {
     
     static let textMessage = "textMessage"
-    static let url = "backgroundURL"
+    static let backgroundURL = "backgroundURL"
 }

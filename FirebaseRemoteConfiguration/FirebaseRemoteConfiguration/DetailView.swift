@@ -17,7 +17,7 @@ struct DetailView: View {
             
             ZStack {
               
-                KFImage(URL(string: RemoteConfigurationManager.value(forKey: RemoteConfigurationValue.url))!)
+                KFImage(URL(string: RemoteConfigurationManager.value(forKey: RemoteConfigurationValue.backgroundURL))!)
  
             }
             .overlay(
