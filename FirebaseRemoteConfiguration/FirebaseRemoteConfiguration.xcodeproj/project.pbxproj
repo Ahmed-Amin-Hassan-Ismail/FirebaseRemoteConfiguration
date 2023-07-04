@@ -12,6 +12,8 @@
 		ACFDFF202A54726700F161BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFDFF1F2A54726700F161BB /* Assets.xcassets */; };
 		ACFDFF232A54726700F161BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFDFF222A54726700F161BB /* Preview Assets.xcassets */; };
 		ACFDFF2B2A5472AF00F161BB /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = ACFDFF2A2A5472AF00F161BB /* FirebaseRemoteConfig */; };
+		ACFDFF2D2A54739A00F161BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACFDFF2C2A54739A00F161BB /* GoogleService-Info.plist */; };
+		ACFDFF2F2A5473F700F161BB /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDFF2E2A5473F700F161BB /* FirebaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		ACFDFF1D2A54726600F161BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACFDFF1F2A54726700F161BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACFDFF222A54726700F161BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACFDFF2C2A54739A00F161BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ACFDFF2E2A5473F700F161BB /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			children = (
 				ACFDFF1B2A54726600F161BB /* FirebaseRemoteConfigurationApp.swift */,
 				ACFDFF1D2A54726600F161BB /* ContentView.swift */,
+				ACFDFF2E2A5473F700F161BB /* FirebaseManager.swift */,
 				ACFDFF1F2A54726700F161BB /* Assets.xcassets */,
+				ACFDFF2C2A54739A00F161BB /* GoogleService-Info.plist */,
 				ACFDFF212A54726700F161BB /* Preview Content */,
 			);
 			path = FirebaseRemoteConfiguration;
@@ -135,6 +141,7 @@
 			files = (
 				ACFDFF232A54726700F161BB /* Preview Assets.xcassets in Resources */,
 				ACFDFF202A54726700F161BB /* Assets.xcassets in Resources */,
+				ACFDFF2D2A54739A00F161BB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACFDFF2F2A5473F700F161BB /* FirebaseManager.swift in Sources */,
 				ACFDFF1E2A54726600F161BB /* ContentView.swift in Sources */,
 				ACFDFF1C2A54726600F161BB /* FirebaseRemoteConfigurationApp.swift in Sources */,
 			);
