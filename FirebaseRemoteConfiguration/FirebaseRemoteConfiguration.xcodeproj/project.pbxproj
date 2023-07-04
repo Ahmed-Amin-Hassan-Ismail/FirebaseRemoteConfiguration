@@ -3,187 +3,149 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ACFDFEEF2A54681300F161BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDFEEE2A54681300F161BB /* AppDelegate.swift */; };
-		ACFDFEF12A54681300F161BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDFEF02A54681300F161BB /* SceneDelegate.swift */; };
-		ACFDFEF32A54681300F161BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDFEF22A54681300F161BB /* ViewController.swift */; };
-		ACFDFEF62A54681300F161BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFDFEF42A54681300F161BB /* Main.storyboard */; };
-		ACFDFEF82A54681400F161BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFDFEF72A54681400F161BB /* Assets.xcassets */; };
-		ACFDFEFB2A54681400F161BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFDFEF92A54681400F161BB /* LaunchScreen.storyboard */; };
-		ACFDFF042A54699E00F161BB /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = ACFDFF032A54699E00F161BB /* FirebaseAnalytics */; };
-		ACFDFF062A54699E00F161BB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = ACFDFF052A54699E00F161BB /* FirebaseAuth */; };
-		ACFDFF082A54699E00F161BB /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = ACFDFF072A54699E00F161BB /* FirebaseRemoteConfig */; };
-		ACFDFF0A2A54699E00F161BB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = ACFDFF092A54699E00F161BB /* FirebaseStorage */; };
+		ACFDFF1C2A54726600F161BB /* FirebaseRemoteConfigurationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDFF1B2A54726600F161BB /* FirebaseRemoteConfigurationApp.swift */; };
+		ACFDFF1E2A54726600F161BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDFF1D2A54726600F161BB /* ContentView.swift */; };
+		ACFDFF202A54726700F161BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFDFF1F2A54726700F161BB /* Assets.xcassets */; };
+		ACFDFF232A54726700F161BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFDFF222A54726700F161BB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ACFDFEEB2A54681300F161BB /* FirebaseRemoteConfiguration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseRemoteConfiguration.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACFDFEEE2A54681300F161BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACFDFEF02A54681300F161BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACFDFEF22A54681300F161BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ACFDFEF52A54681300F161BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ACFDFEF72A54681400F161BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ACFDFEFA2A54681400F161BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ACFDFEFC2A54681400F161BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFDFF182A54726600F161BB /* FirebaseRemoteConfiguration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseRemoteConfiguration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFDFF1B2A54726600F161BB /* FirebaseRemoteConfigurationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRemoteConfigurationApp.swift; sourceTree = "<group>"; };
+		ACFDFF1D2A54726600F161BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACFDFF1F2A54726700F161BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACFDFF222A54726700F161BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ACFDFEE82A54681300F161BB /* Frameworks */ = {
+		ACFDFF152A54726600F161BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACFDFF082A54699E00F161BB /* FirebaseRemoteConfig in Frameworks */,
-				ACFDFF0A2A54699E00F161BB /* FirebaseStorage in Frameworks */,
-				ACFDFF042A54699E00F161BB /* FirebaseAnalytics in Frameworks */,
-				ACFDFF062A54699E00F161BB /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ACFDFEE22A54681300F161BB = {
+		ACFDFF0F2A54726600F161BB = {
 			isa = PBXGroup;
 			children = (
-				ACFDFEED2A54681300F161BB /* FirebaseRemoteConfiguration */,
-				ACFDFEEC2A54681300F161BB /* Products */,
+				ACFDFF1A2A54726600F161BB /* FirebaseRemoteConfiguration */,
+				ACFDFF192A54726600F161BB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ACFDFEEC2A54681300F161BB /* Products */ = {
+		ACFDFF192A54726600F161BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACFDFEEB2A54681300F161BB /* FirebaseRemoteConfiguration.app */,
+				ACFDFF182A54726600F161BB /* FirebaseRemoteConfiguration.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ACFDFEED2A54681300F161BB /* FirebaseRemoteConfiguration */ = {
+		ACFDFF1A2A54726600F161BB /* FirebaseRemoteConfiguration */ = {
 			isa = PBXGroup;
 			children = (
-				ACFDFEEE2A54681300F161BB /* AppDelegate.swift */,
-				ACFDFEF02A54681300F161BB /* SceneDelegate.swift */,
-				ACFDFEF22A54681300F161BB /* ViewController.swift */,
-				ACFDFEF42A54681300F161BB /* Main.storyboard */,
-				ACFDFEF72A54681400F161BB /* Assets.xcassets */,
-				ACFDFEF92A54681400F161BB /* LaunchScreen.storyboard */,
-				ACFDFEFC2A54681400F161BB /* Info.plist */,
+				ACFDFF1B2A54726600F161BB /* FirebaseRemoteConfigurationApp.swift */,
+				ACFDFF1D2A54726600F161BB /* ContentView.swift */,
+				ACFDFF1F2A54726700F161BB /* Assets.xcassets */,
+				ACFDFF212A54726700F161BB /* Preview Content */,
 			);
 			path = FirebaseRemoteConfiguration;
+			sourceTree = "<group>";
+		};
+		ACFDFF212A54726700F161BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACFDFF222A54726700F161BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ACFDFEEA2A54681300F161BB /* FirebaseRemoteConfiguration */ = {
+		ACFDFF172A54726600F161BB /* FirebaseRemoteConfiguration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACFDFEFF2A54681400F161BB /* Build configuration list for PBXNativeTarget "FirebaseRemoteConfiguration" */;
+			buildConfigurationList = ACFDFF262A54726700F161BB /* Build configuration list for PBXNativeTarget "FirebaseRemoteConfiguration" */;
 			buildPhases = (
-				ACFDFEE72A54681300F161BB /* Sources */,
-				ACFDFEE82A54681300F161BB /* Frameworks */,
-				ACFDFEE92A54681300F161BB /* Resources */,
+				ACFDFF142A54726600F161BB /* Sources */,
+				ACFDFF152A54726600F161BB /* Frameworks */,
+				ACFDFF162A54726600F161BB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FirebaseRemoteConfiguration;
-			packageProductDependencies = (
-				ACFDFF032A54699E00F161BB /* FirebaseAnalytics */,
-				ACFDFF052A54699E00F161BB /* FirebaseAuth */,
-				ACFDFF072A54699E00F161BB /* FirebaseRemoteConfig */,
-				ACFDFF092A54699E00F161BB /* FirebaseStorage */,
-			);
 			productName = FirebaseRemoteConfiguration;
-			productReference = ACFDFEEB2A54681300F161BB /* FirebaseRemoteConfiguration.app */;
+			productReference = ACFDFF182A54726600F161BB /* FirebaseRemoteConfiguration.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ACFDFEE32A54681300F161BB /* Project object */ = {
+		ACFDFF102A54726600F161BB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					ACFDFEEA2A54681300F161BB = {
+					ACFDFF172A54726600F161BB = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = ACFDFEE62A54681300F161BB /* Build configuration list for PBXProject "FirebaseRemoteConfiguration" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = ACFDFF132A54726600F161BB /* Build configuration list for PBXProject "FirebaseRemoteConfiguration" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = ACFDFEE22A54681300F161BB;
-			packageReferences = (
-				ACFDFF022A54699E00F161BB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-			);
-			productRefGroup = ACFDFEEC2A54681300F161BB /* Products */;
+			mainGroup = ACFDFF0F2A54726600F161BB;
+			productRefGroup = ACFDFF192A54726600F161BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ACFDFEEA2A54681300F161BB /* FirebaseRemoteConfiguration */,
+				ACFDFF172A54726600F161BB /* FirebaseRemoteConfiguration */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ACFDFEE92A54681300F161BB /* Resources */ = {
+		ACFDFF162A54726600F161BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACFDFEFB2A54681400F161BB /* LaunchScreen.storyboard in Resources */,
-				ACFDFEF82A54681400F161BB /* Assets.xcassets in Resources */,
-				ACFDFEF62A54681300F161BB /* Main.storyboard in Resources */,
+				ACFDFF232A54726700F161BB /* Preview Assets.xcassets in Resources */,
+				ACFDFF202A54726700F161BB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ACFDFEE72A54681300F161BB /* Sources */ = {
+		ACFDFF142A54726600F161BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACFDFEF32A54681300F161BB /* ViewController.swift in Sources */,
-				ACFDFEEF2A54681300F161BB /* AppDelegate.swift in Sources */,
-				ACFDFEF12A54681300F161BB /* SceneDelegate.swift in Sources */,
+				ACFDFF1E2A54726600F161BB /* ContentView.swift in Sources */,
+				ACFDFF1C2A54726600F161BB /* FirebaseRemoteConfigurationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		ACFDFEF42A54681300F161BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACFDFEF52A54681300F161BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ACFDFEF92A54681400F161BB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACFDFEFA2A54681400F161BB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		ACFDFEFD2A54681400F161BB /* Debug */ = {
+		ACFDFF242A54726700F161BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,7 +195,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -243,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		ACFDFEFE2A54681400F161BB /* Release */ = {
+		ACFDFF252A54726700F161BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -287,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -297,22 +259,22 @@
 			};
 			name = Release;
 		};
-		ACFDFF002A54681400F161BB /* Debug */ = {
+		ACFDFF272A54726700F161BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirebaseRemoteConfiguration/Preview Content\"";
 				DEVELOPMENT_TEAM = M4SYRBQBFW;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FirebaseRemoteConfiguration/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,22 +288,22 @@
 			};
 			name = Debug;
 		};
-		ACFDFF012A54681400F161BB /* Release */ = {
+		ACFDFF282A54726700F161BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirebaseRemoteConfiguration/Preview Content\"";
 				DEVELOPMENT_TEAM = M4SYRBQBFW;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FirebaseRemoteConfiguration/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,59 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ACFDFEE62A54681300F161BB /* Build configuration list for PBXProject "FirebaseRemoteConfiguration" */ = {
+		ACFDFF132A54726600F161BB /* Build configuration list for PBXProject "FirebaseRemoteConfiguration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACFDFEFD2A54681400F161BB /* Debug */,
-				ACFDFEFE2A54681400F161BB /* Release */,
+				ACFDFF242A54726700F161BB /* Debug */,
+				ACFDFF252A54726700F161BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACFDFEFF2A54681400F161BB /* Build configuration list for PBXNativeTarget "FirebaseRemoteConfiguration" */ = {
+		ACFDFF262A54726700F161BB /* Build configuration list for PBXNativeTarget "FirebaseRemoteConfiguration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACFDFF002A54681400F161BB /* Debug */,
-				ACFDFF012A54681400F161BB /* Release */,
+				ACFDFF272A54726700F161BB /* Debug */,
+				ACFDFF282A54726700F161BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		ACFDFF022A54699E00F161BB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		ACFDFF032A54699E00F161BB /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = ACFDFF022A54699E00F161BB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		ACFDFF052A54699E00F161BB /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = ACFDFF022A54699E00F161BB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		ACFDFF072A54699E00F161BB /* FirebaseRemoteConfig */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = ACFDFF022A54699E00F161BB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseRemoteConfig;
-		};
-		ACFDFF092A54699E00F161BB /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = ACFDFF022A54699E00F161BB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = ACFDFEE32A54681300F161BB /* Project object */;
+	rootObject = ACFDFF102A54726600F161BB /* Project object */;
 }
