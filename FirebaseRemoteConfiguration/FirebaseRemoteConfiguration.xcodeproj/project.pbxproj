@@ -16,6 +16,9 @@
 		ACFDFF2F2A5473F700F161BB /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDFF2E2A5473F700F161BB /* FirebaseManager.swift */; };
 		ACFDFF312A54759900F161BB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDFF302A54759900F161BB /* DetailView.swift */; };
 		ACFDFF342A54790900F161BB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = ACFDFF332A54790900F161BB /* Kingfisher */; };
+		ACFDFF362A547C6E00F161BB /* DefaultConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACFDFF352A547C6E00F161BB /* DefaultConfiguration.plist */; };
+		ACFDFF382A547CF800F161BB /* RemoteConfigurationValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDFF372A547CF800F161BB /* RemoteConfigurationValue.swift */; };
+		ACFDFF3A2A547D6200F161BB /* RemoteConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDFF392A547D6200F161BB /* RemoteConfigurationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		ACFDFF2C2A54739A00F161BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ACFDFF2E2A5473F700F161BB /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		ACFDFF302A54759900F161BB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		ACFDFF352A547C6E00F161BB /* DefaultConfiguration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DefaultConfiguration.plist; sourceTree = "<group>"; };
+		ACFDFF372A547CF800F161BB /* RemoteConfigurationValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigurationValue.swift; sourceTree = "<group>"; };
+		ACFDFF392A547D6200F161BB /* RemoteConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigurationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +71,11 @@
 				ACFDFF1D2A54726600F161BB /* HomeView.swift */,
 				ACFDFF302A54759900F161BB /* DetailView.swift */,
 				ACFDFF2E2A5473F700F161BB /* FirebaseManager.swift */,
+				ACFDFF392A547D6200F161BB /* RemoteConfigurationManager.swift */,
+				ACFDFF372A547CF800F161BB /* RemoteConfigurationValue.swift */,
 				ACFDFF1F2A54726700F161BB /* Assets.xcassets */,
 				ACFDFF2C2A54739A00F161BB /* GoogleService-Info.plist */,
+				ACFDFF352A547C6E00F161BB /* DefaultConfiguration.plist */,
 				ACFDFF212A54726700F161BB /* Preview Content */,
 			);
 			path = FirebaseRemoteConfiguration;
@@ -147,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACFDFF232A54726700F161BB /* Preview Assets.xcassets in Resources */,
+				ACFDFF362A547C6E00F161BB /* DefaultConfiguration.plist in Resources */,
 				ACFDFF202A54726700F161BB /* Assets.xcassets in Resources */,
 				ACFDFF2D2A54739A00F161BB /* GoogleService-Info.plist in Resources */,
 			);
@@ -159,9 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACFDFF382A547CF800F161BB /* RemoteConfigurationValue.swift in Sources */,
 				ACFDFF2F2A5473F700F161BB /* FirebaseManager.swift in Sources */,
 				ACFDFF312A54759900F161BB /* DetailView.swift in Sources */,
 				ACFDFF1E2A54726600F161BB /* HomeView.swift in Sources */,
+				ACFDFF3A2A547D6200F161BB /* RemoteConfigurationManager.swift in Sources */,
 				ACFDFF1C2A54726600F161BB /* FirebaseRemoteConfigurationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
