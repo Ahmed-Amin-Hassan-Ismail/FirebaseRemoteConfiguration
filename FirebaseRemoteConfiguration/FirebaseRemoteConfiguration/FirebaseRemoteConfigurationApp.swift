@@ -27,6 +27,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
      
         
         FirebaseManager.instance.setupFirebase()
+        RemoteConfigurationManager.configure(expirationDuration: 0)
         
         return true
     }
